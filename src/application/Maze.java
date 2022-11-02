@@ -23,6 +23,8 @@ public class Maze {
 	public static final int VISITED = 3;	// A hall space that was visited and discarded
 
 	private int[][] maze;	// The squares making up the maze
+	
+	private MazeController mazeController;
 
 	public Maze(int rows, int columns){
 		assert(rows > 0 && columns > 0);
